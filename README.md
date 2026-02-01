@@ -1,138 +1,120 @@
-import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
+<!-- ================= HEADER ================= -->
 
-export default function MatrixPortfolio() {
-  return (
-    <div className="min-h-screen bg-black text-green-400 font-mono">
-      {/* Header */}
-      <header className="text-center py-16 border-b border-green-500">
-        <motion.h1
-          initial={{ opacity: 0, y: -40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-5xl font-bold tracking-widest"
-        >
-          GOVIND PRATAP SINGH
-        </motion.h1>
-        <p className="mt-4 text-green-300">
-          Full Stack Developer | MERN | Java | Backend Systems
-        </p>
-      </header>
+<h1 align="center">Hi 👋, I'm Govind Pratap Singh</h1>
 
-      {/* About */}
-      <section className="max-w-5xl mx-auto px-6 py-16">
-        <h2 className="text-3xl mb-6 border-b border-green-500 pb-2">
-          &gt; About_Me
-        </h2>
-        <p className="text-green-300 leading-relaxed">
-          Passionate Full Stack Developer experienced in building scalable web
-          applications using MERN stack and Java backend systems. Strong
-          foundation in Data Structures, OOP, and performance optimized backend
-          architecture.
-        </p>
-      </section>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&lines=Full+Stack+Developer;MERN+Stack+Developer;Java+%7C+DSA+%7C+OOP+Enthusiast;Backend+Focused+Engineer;Always+Learning+New+Tech" />
+</p>
 
-      {/* Skills */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
-        <h2 className="text-3xl mb-10 border-b border-green-500 pb-2">
-          &gt; Skill_Matrix
-        </h2>
-        <div className="grid md:grid-cols-4 gap-6">
-          {[
-            {
-              title: "Languages",
-              items: ["Java", "JavaScript"],
-            },
-            {
-              title: "Frontend",
-              items: ["React", "HTML", "CSS"],
-            },
-            {
-              title: "Backend",
-              items: ["Node.js", "Express.js"],
-            },
-            {
-              title: "Database",
-              items: ["MongoDB", "MySQL"],
-            },
-          ].map((skill, index) => (
-            <Card
-              key={index}
-              className="bg-black border border-green-500 shadow-xl"
-            >
-              <CardContent className="p-6">
-                <h3 className="text-xl mb-4 text-green-300">
-                  {skill.title}
-                </h3>
-                <ul className="space-y-2">
-                  {skill.items.map((item, i) => (
-                    <li key={i}>&gt; {item}</li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+<p align="center">
+  <a href="https://github.com/govindsingh3">
+    <img src="https://komarev.com/ghpvc/?username=govindsingh3&label=Profile+Views&color=0e75b6&style=flat" />
+  </a>
+</p>
 
-      {/* Projects */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
-        <h2 className="text-3xl mb-10 border-b border-green-500 pb-2">
-          &gt; Project_Database
-        </h2>
+---
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {[
-            {
-              name: "React Studio IDE",
-              desc: "Browser based React IDE with Sandpack and real-time execution",
-            },
-            {
-              name: "Luxe Stay Booking",
-              desc: "MERN hotel booking platform with admin dashboard",
-            },
-            {
-              name: "Library Management",
-              desc: "Java OOP system with file persistence and menu interface",
-            },
-          ].map((project, index) => (
-            <Card
-              key={index}
-              className="bg-black border border-green-500 hover:shadow-green-500/50 transition"
-            >
-              <CardContent className="p-6">
-                <h3 className="text-xl mb-3 text-green-300">
-                  {project.name}
-                </h3>
-                <p className="text-green-400 text-sm">{project.desc}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+# 🧠 About Me
 
-      {/* Contact */}
-      <section className="text-center py-16 border-t border-green-500">
-        <h2 className="text-3xl mb-6">&gt; Connect_With_Me</h2>
-        <div className="flex justify-center gap-6 flex-wrap">
-          <Button className="bg-green-500 text-black hover:bg-green-400">
-            LinkedIn
-          </Button>
-          <Button className="bg-green-500 text-black hover:bg-green-400">
-            GitHub
-          </Button>
-          <Button className="bg-green-500 text-black hover:bg-green-400">
-            Email
-          </Button>
-        </div>
-      </section>
+🚀 Full Stack Developer skilled in MERN & Java Development  
+💡 Strong problem solving + DSA foundation  
+⚡ Experience building real-world scalable web apps  
+🔐 Interested in backend performance + secure systems  
 
-      {/* Footer */}
-      <footer className="text-center py-8 text-green-600 text-sm">
-        SYSTEM STATUS: CONNECTED TO MATRIX
-      </footer>
-    </div>
-  );
-}
+---
+
+# 🛠 Tech Stack
+
+## 💻 Languages
+![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
+
+---
+
+## 🌐 Frontend
+![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
+![HTML](https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3)
+
+---
+
+## ⚙️ Backend
+![NodeJS](https://img.shields.io/badge/Node.js-green?style=for-the-badge&logo=node.js)
+![ExpressJS](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
+
+---
+
+## 🗄 Database
+![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen?style=for-the-badge&logo=mongodb)
+![MySQL](https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql)
+
+---
+
+# 🚀 Featured Projects
+
+## 🧑‍💻 React Studio — Browser React IDE
+✔ Real-time React code execution  
+✔ Multi-file project management  
+✔ Sandpack integration  
+✔ Clean responsive UI  
+
+---
+
+## 🏨 Luxe Stay — MERN Hotel Booking
+✔ Real-time room availability  
+✔ Admin dashboard  
+✔ 1000+ booking stress tested  
+
+---
+
+## 📚 Library Management System — Java OOP
+✔ OOP Architecture  
+✔ File Handling Persistence  
+✔ Console Menu Driven  
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=govindsingh3&show_icons=true&theme=tokyonight"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=govindsingh3&theme=tokyonight"/>
+</p>
+
+---
+
+# 🏆 Certifications
+
+🎓 Web Development — Coursera  
+🎓 Server Side JavaScript — Coursera  
+🎓 Generative AI — Coursera  
+
+---
+
+# 🎯 Current Focus
+
+⚡ Advanced MERN Architecture  
+⚡ Backend Optimization  
+⚡ System Design Basics  
+
+---
+
+# 📫 Connect With Me
+
+💼 LinkedIn → https://www.linkedin.com/in/govindsingh07/  
+📧 Email → govindpratapsingh77@gmail.com  
+
+---
+
+# ⚡ Dev Fun
+
+```js
+const govind = {
+  code: ["Java", "JavaScript"],
+  stack: ["MERN"],
+  focus: "Backend + Performance",
+  life: "Eat 🍜 Code 💻 Sleep 😴 Repeat 🔁"
+};
